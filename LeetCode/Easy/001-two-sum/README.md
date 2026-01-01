@@ -171,4 +171,4 @@ public:
 
 ---
 
->  *"Start with what you know, optimize as you grow!"*
+>  "Start with what you know, optimize as you grow!"*
