@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 Problem Description
+##  Problem Description
 
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.
 
@@ -42,9 +42,9 @@ Output: [0,1]
 
 ---
 
-## 💡 My Approach (Brute Force)
+##  My Approach (Brute Force)
 
-### 🧠 Intuition
+###  Intuition
 
 Since I haven't learned hash maps yet, I'm using a straightforward nested loop approach:
 - For each element, check if any element after it adds up to the target
@@ -52,7 +52,7 @@ Since I haven't learned hash maps yet, I'm using a straightforward nested loop a
 
 This is the most intuitive solution and helps me understand the problem well!
 
-### 📝 Algorithm
+###  Algorithm
 
 1. Loop through each element with index `i`
 2. Calculate `temp = target - nums[i]` (the number we're looking for)
@@ -60,7 +60,7 @@ This is the most intuitive solution and helps me understand the problem well!
 4. If `nums[j] == temp`, we found our pair!
 5. Return `[i, j]`
 
-### 🎯 Why This Works
+###  Why This Works
 
 - We check every possible pair of numbers
 - By starting the inner loop from `i+1`, we avoid:
@@ -70,7 +70,7 @@ This is the most intuitive solution and helps me understand the problem well!
 
 ---
 
-## 🔍 Complexity Analysis
+##  Complexity Analysis
 
 - **Time Complexity**: `O(n²)`
     - Outer loop runs n times
@@ -83,7 +83,7 @@ This is the most intuitive solution and helps me understand the problem well!
 
 ---
 
-## 💻 Current Solution
+##  Current Solution
 
 ```cpp
 class Solution {
@@ -111,7 +111,7 @@ public:
 
 ---
 
-## 🎓 Key Learnings
+##  Key Learnings
 
 1. **Nested Loops**:  Useful for checking all pairs in an array
 2. **Complement Logic**: For sum problems, think "what do I need to find?"
@@ -120,7 +120,7 @@ public:
 
 ---
 
-## 🚀 Future Optimization
+##  Future Optimization
 
 > **Note**: This solution works but is O(n²). Once I learn **hash maps**, I can optimize this to **O(n)** time complexity!
 
@@ -133,15 +133,15 @@ public:
 
 ---
 
-## 📊 Alternative Approaches
+##  Alternative Approaches
 
-### ✅ Current:  Brute Force (Nested Loops)
+### Current:  Brute Force (Nested Loops)
 - **Time**: O(n²)
 - **Space**: O(1)
 - **Pros**: Simple, easy to understand, no extra data structures
 - **Cons**:  Slow for large inputs
 
-### 🔮 Future: Hash Map (To Implement)
+### Future: Hash Map (To Implement)
 - **Time**: O(n)
 - **Space**: O(n)
 - **Pros**: Much faster
@@ -149,33 +149,17 @@ public:
 
 ---
 
-## ✅ Submission Results
+##  Submission Results
 
-- **Status**: Accepted ✅
+- **Status**: Accepted 
 - **Runtime**:  Beats ~30-40% of C++ submissions (brute force)
 - **Memory**: Beats ~70-80% of C++ submissions (low memory usage)
 - **Date Solved**: 2026-01-01
 
 ---
 
-## 🔗 Related Problems
 
-- [15. 3Sum](https://leetcode.com/problems/3sum/) - Medium
-- [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) - Medium
-- [170. Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) - Easy
-
----
-
-## 📝 Learning Journey
-
-- [x] Solved with nested loops (brute force)
-- [ ] Learn hash map/unordered_map in C++
-- [ ] Optimize solution to O(n) time
-- [ ] Update this README with optimized version
-
----
-
-## 🏷️ Tags
+## Tags
 
 `#array` `#bruteforce` `#twopointers` `#easy` `#to-optimize` `#learning`
 
@@ -187,4 +171,4 @@ public:
 
 ---
 
-> 💭 *"Start with what you know, optimize as you grow!"*
+>  *"Start with what you know, optimize as you grow!"*
