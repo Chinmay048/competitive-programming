@@ -12,5 +12,4 @@ public:
         }
         return {0};
     }
-
 };
