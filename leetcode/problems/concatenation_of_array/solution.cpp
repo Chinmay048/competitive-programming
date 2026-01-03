@@ -1,13 +1,14 @@
 class Solution {
 public:
     vector<int> getConcatenation(vector<int>& nums) {
-        vector<int> temp;    
-        for(int i=0;i<2*nums.size();i++)
-            if(i<nums.size())
-                temp.push_back(nums[i]);
-            else 
-                temp.push_back(nums[i-nums.size()]);
-        return temp;
-
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+        int n = nums.size();
+        vector<int> ans(2 * n);
+        for(int i = 0; i < n; ++i) {
+            ans[i] = nums[i];
+            ans[i + n] = nums[i];
+        }
+        return ans;
     }
 };
