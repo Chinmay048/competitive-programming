@@ -1,19 +1,18 @@
 # Competitive Programming Solutions
 
-Welcome to my competitive programming journey!  This repository contains my solutions to problems from **LeetCode** and **CodeForces** with detailed explanations, approaches, and complexity analysis.
+Welcome to my competitive programming journey! This repository contains my solutions to problems from **LeetCode** and **CodeForces** with detailed explanations, approaches, and complexity analysis.
 
 ## Progress Tracker
 
-###  LeetCode
-- **Easy**: 1 problems solved
-- **Medium**: 1 problems solved
+### LeetCode
+- **Easy**: 14 problems solved
+- **Medium**: 3 problems solved
 - **Hard**: 0 problems solved
-- **Total**: 2 problems
+- **Total**:  17 problems
 
-###  CodeForces
-
-- **TLE CP-31 Sheet**
-- **Problems Solved**: 0
+### CodeForces
+- **800 Rating**: 1 problem solved
+- **Total**: 1 problem
 
 ---
 
@@ -41,21 +40,17 @@ competitive-programming/
 │
 └── CodeForces/
     ├── README.md                      # CodeForces overview & statistics
-    ├── Division-2/
-    │   └── Round-[number]/
-    │       └── Problem-[letter]/
-    │           ├── solution.[ext]
-    │           └── README.md
-    └── Division-3/
+    ├── 800-Rating/
         └── Round-[number]/
             └── Problem-[letter]/
                 ├── solution.[ext]
                 └── README.md
+    
 ```
 
 ---
 
-## 🛠️ Languages & Tools
+##  Languages & Tools
 
 <p align="left">
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
@@ -67,14 +62,14 @@ competitive-programming/
 
 ##  What You'll Find Here
 
-Each problem solution includes: 
+Each problem solution includes:
 
-✅ **Clean, Well-Commented Code** - Easy to understand implementations  
-✅ **Detailed Explanations** - Step-by-step breakdown of the approach  
-✅ **Complexity Analysis** - Time and space complexity explained  
-✅ **Multiple Approaches** - Different solutions when applicable  
-✅ **Test Cases** - Example inputs and outputs  
-✅ **Key Learnings** - Important takeaways and patterns
+ **Clean, Well-Commented Code** - Easy to understand implementations  
+ **Detailed Explanations** - Step-by-step breakdown of the approach  
+ **Complexity Analysis** - Time and space complexity explained  
+ **Multiple Approaches** - Different solutions when applicable  
+ **Test Cases** - Example inputs and outputs  
+ **Key Learnings** - Important takeaways and patterns
 
 ---
 
@@ -105,39 +100,12 @@ CodeForces/[Division]/Round-[Number]/Problem-[Letter]/
 
 ---
 
-##  Goals
 
-- [ ] Solve 100+ LeetCode problems
-- [ ] Reach Expert on CodeForces
-- [ ] Master all common patterns (Two Pointers, Sliding Window, DP, etc.)
-- [ ] Participate in weekly contests regularly
-- [ ] Help others learn through detailed explanations
-
----
-
-## Connect With Me
-
-<p align="left">
-  <a href="https://leetcode.com/Chinmay048" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
-  </a>
-  <a href="https://codeforces.com/profile/Chinmay048" target="_blank">
-    <img src="https://img.shields.io/badge/CodeForces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="CodeForces"/>
-  </a>
-  <a href="https://github.com/Chinmay048" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://linkedin.com/in/chinmay048" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-</p>
-
----
 
 ##  Commit Convention
 
 ```
- Add:  New problem solution
+ Add:New problem solution
  Update: Improved existing solution
  Fix: Corrected bug or error
  Docs: Updated documentation
@@ -165,17 +133,6 @@ CodeForces/[Division]/Round-[Number]/Problem-[Letter]/
 
 This project is licensed under the MIT License - feel free to use these solutions for learning purposes!
 
----
-
-##  Contributing
-
-Found a better approach or spotted an error? Feel free to:
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Submit a pull request
-
-All contributions are welcome!
 
 ---
 
@@ -186,11 +143,5 @@ All contributions are welcome!
 ---
 
 <div align="center">
-
-###  Star this repository if you find it helpful! 
-
-**Last Updated**: January 2026
-
-Made with ❤️ by [Chinmay048](https://github.com/Chinmay048)
-
 </div>
+###  Star this repository if you find it helpful!
