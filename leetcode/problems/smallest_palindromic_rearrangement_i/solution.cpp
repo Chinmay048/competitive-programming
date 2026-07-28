@@ -17,6 +17,6 @@ public:
         }
         string right = left;
         reverse(right.begin(), right.end());
-        return left + middle + right;
+        return left + middle + right; 
     }
 };
