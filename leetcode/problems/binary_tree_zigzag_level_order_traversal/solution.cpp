@@ -22,7 +22,7 @@ public:
 
         while (!q.empty()) {
             int s = q.size();
-            vector<int> temp(s); // Pre-size vector to assign via index directly
+            vector<int> temp(s); 
 
             for (int i = 0; i < s; ++i) {
                 TreeNode* curr = q.front();
