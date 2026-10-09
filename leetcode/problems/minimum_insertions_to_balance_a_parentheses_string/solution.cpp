@@ -1,23 +1,24 @@
 class Solution {
 public:
     int minInsertions(string s) {
-        int insertions = 0;
-        int req_right = 0;
-        for (char c : s) {
-            if (c == '(') {
-                if (req_right % 2 != 0) {
-                    insertions++;
+        int insert=0;
+        int req_right=0;
+        for(char c:s){
+            if(c=='('){
+                if(req_right%2!=0){
                     req_right--;
+                    insert++;
                 }
-                req_right += 2;
-            } else {
+                req_right+=2;
+            }
+            else{
                 req_right--;
-                if (req_right < 0) {
-                    insertions++;
-                    req_right = 1;
+                if(req_right<0){
+                    insert++;
+                    req_right=1;
                 }
             }
         }
-        return insertions + req_right;
+        return insert+req_right;
     }
 };
